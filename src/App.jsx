@@ -5,6 +5,7 @@ import Nav from "./Layouts/Navbar"
 import DefaultLayout from "./Layouts/DefaultLayout"
 import PostsList from "./Pages/PostsList"
 import NotFound from "./Pages/NotFound"
+import BlankLayout from "./Layouts/BlankLayout"
 
 function App() {
 
@@ -16,7 +17,9 @@ function App() {
             <Route index element={<Homepage />} />
             <Route path="/contact" element={<ContactUs />} />
             <Route path="/posts" element={<PostsList />} />
-            <Route path="*" Component={NotFound} />
+          </Route>
+          <Route component={BlankLayout}>
+          <Route path="*" Component={NotFound} />
           </Route>
         </Routes>
       </BrowserRouter>
