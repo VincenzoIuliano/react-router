@@ -1,10 +1,10 @@
+import Nav from "../Layouts/Navbar";
+
 export default function Homepage() {
     return (
       <main>
         <section>
-          <h1>Queste è la home page</h1>
-  
-          
+          <h1>Queste è la home page</h1>    
         </section>
       </main>
     )
