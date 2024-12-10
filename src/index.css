@@ -34,3 +34,32 @@ img {
   color: blue;
   text-decoration: underline;
 }
+
+/* HOMEPAGE  */
+
+.homepage {
+  text-align: center;
+  display: flex;
+}
+
+.homepage_section {
+  flex-grow: 1;
+}
+
+
+/* FOOTER  */
+
+.footer {
+  padding: 2rem;
+  background-color: darkgray;
+  color: white;
+  margin: auto;
+}
+
+/* NOT FOUND */
+
+.not_found {
+  padding: 20px;
+  text-align: center;
+  background-color: red;
+}
